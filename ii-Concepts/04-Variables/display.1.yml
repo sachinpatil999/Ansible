@@ -1,0 +1,15 @@
+---
+-
+  hosts: all
+  gather_facts: true # this will make not to gather facts before running tasks
+
+   vars_files:
+    - ext_variables.1.yml
+
+   - name: display variables from external files
+      debug:
+        msg: >
+            our  input from the external files -- myname is {{myname}}
+            first item in the features list is {{servicesneedstostop}}
+
+...

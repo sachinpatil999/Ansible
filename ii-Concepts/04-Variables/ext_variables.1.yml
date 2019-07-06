@@ -1,0 +1,8 @@
+---
+
+myname: Dharma
+
+servicesneedstostop:
+   [Bits, Dhcp, Dnscache]
+
+...
