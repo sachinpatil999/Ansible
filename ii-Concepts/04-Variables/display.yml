@@ -22,8 +22,8 @@
     - ext_variables.yml
 
   #vars_prompt: # this will prompt for the input
-    - name: servicename
-      private: false
+   # - name: servicename
+    #  private: false
 
   
   tasks:
