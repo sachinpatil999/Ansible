@@ -21,7 +21,7 @@
   vars_files:
     - ext_variables.yml
 
-  vars_prompt: # this will prompt for the input
+  #vars_prompt: # this will prompt for the input
     - name: servicename
       private: false
 
